@@ -28,4 +28,19 @@ public class Livros {
     public void setId(){
         this.id = id;
     }
+    public String getNome(){
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public Integer getQuantidade(){
+        return quantidade;
+    }
+
+    public void setQuantidade(Integer quantidade) {
+        this.quantidade = quantidade;
+    }
+
 }
